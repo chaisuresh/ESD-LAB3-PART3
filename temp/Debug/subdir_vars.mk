@@ -9,37 +9,37 @@ CMD_SRCS += \
 ../msp432p401r.cmd 
 
 C_SRCS += \
-../init_func.c \
+../initialise.c \
 ../main.c \
 ../startup_msp432p401r_ccs.c \
 ../system_msp432p401r.c 
 
 C_DEPS += \
-./init_func.d \
+./initialise.d \
 ./main.d \
 ./startup_msp432p401r_ccs.d \
 ./system_msp432p401r.d 
 
 OBJS += \
-./init_func.obj \
+./initialise.obj \
 ./main.obj \
 ./startup_msp432p401r_ccs.obj \
 ./system_msp432p401r.obj 
 
 OBJS__QUOTED += \
-"init_func.obj" \
+"initialise.obj" \
 "main.obj" \
 "startup_msp432p401r_ccs.obj" \
 "system_msp432p401r.obj" 
 
 C_DEPS__QUOTED += \
-"init_func.d" \
+"initialise.d" \
 "main.d" \
 "startup_msp432p401r_ccs.d" \
 "system_msp432p401r.d" 
 
 C_SRCS__QUOTED += \
-"../init_func.c" \
+"../initialise.c" \
 "../main.c" \
 "../startup_msp432p401r_ccs.c" \
 "../system_msp432p401r.c" 

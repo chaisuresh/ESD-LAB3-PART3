@@ -19,9 +19,10 @@ main.obj: C:/ti/ccs1020/ccs/ccs_base/arm/include/CMSIS/core_cm4.h
 main.obj: C:/ti/ccs1020/ccs/ccs_base/arm/include/CMSIS/cmsis_compiler.h
 main.obj: C:/ti/ccs1020/ccs/ccs_base/arm/include/CMSIS/cmsis_ccs.h
 main.obj: C:/ti/ccs1020/ccs/ccs_base/arm/include/system_msp432p401r.h
-main.obj: ../init_func.h
+main.obj: ../initialise.h
 main.obj: C:/ti/ccs1020/ccs/tools/compiler/ti-cgt-arm_20.2.2.LTS/include/stdio.h
 main.obj: C:/ti/ccs1020/ccs/tools/compiler/ti-cgt-arm_20.2.2.LTS/include/stdarg.h
+main.obj: C:/ti/ccs1020/ccs/tools/compiler/ti-cgt-arm_20.2.2.LTS/include/string.h
 
 ../main.c: 
 C:/ti/ccs1020/ccs/ccs_base/arm/include/msp.h: 
@@ -42,6 +43,7 @@ C:/ti/ccs1020/ccs/ccs_base/arm/include/CMSIS/core_cm4.h:
 C:/ti/ccs1020/ccs/ccs_base/arm/include/CMSIS/cmsis_compiler.h: 
 C:/ti/ccs1020/ccs/ccs_base/arm/include/CMSIS/cmsis_ccs.h: 
 C:/ti/ccs1020/ccs/ccs_base/arm/include/system_msp432p401r.h: 
-../init_func.h: 
+../initialise.h: 
 C:/ti/ccs1020/ccs/tools/compiler/ti-cgt-arm_20.2.2.LTS/include/stdio.h: 
 C:/ti/ccs1020/ccs/tools/compiler/ti-cgt-arm_20.2.2.LTS/include/stdarg.h: 
+C:/ti/ccs1020/ccs/tools/compiler/ti-cgt-arm_20.2.2.LTS/include/string.h: 
